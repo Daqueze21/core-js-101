@@ -176,6 +176,11 @@ function isInsideCircle(circle, point) {
  */
 function findFirstSingleChar(/* str */) {
   throw new Error('Not implemented');
+  // const repeated = str.split('').find((val, index, arr) => {
+  //   const first = arr.indexOf(val, index + 1) < 0;
+  //   return first ? val : null;
+  // });
+  // return repeated;
 }
 
 
